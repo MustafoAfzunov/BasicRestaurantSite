@@ -134,3 +134,13 @@ document.addEventListener('DOMContentLoaded', function() {
     checkIfInView();
     window.addEventListener('scroll', checkIfInView);
 });
+document.querySelector('.mobile-menu-btn').addEventListener('click', () => {
+    document.querySelector('.mobile-nav').classList.toggle('active');
+});
+
+// Basic lightbox (enhance as needed)
+document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('click', () => {
+        alert('Image clicked! Add lightbox functionality here.');
+    });
+});
