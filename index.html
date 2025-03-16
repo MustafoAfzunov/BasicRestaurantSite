@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zafar Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">Zafar Restaurant</div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="reservation-btn">
+                <a href="#reservation">Reserve a Table</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Zafar Cousine </h1>
+            <p>Enjoy the tastiest flavours of Tajikistan with Zafar Restaurant</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn primary-btn">Explore Our Menu</a>
+                <a href="#reservation" class="btn secondary-btn">Book Your Table</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="dishes" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Signature Dishes</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Steak">
+                    <h3>Premium Steak</h3>
+                    <p>Succulent dry-aged beef grilled to perfection</p>
+                    <span class="price">150TJK</span>
+                </div>
+                <div class="dish-card">
+                    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Salad">
+                    <h3>Fresh Salad</h3>
+                    <p>Seasonal greens with house dressing</p>
+                    <span class="price">48TJK</span>
+                </div>
+                <div class="dish-card">
+                    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Seafood">
+                    <h3>Seafood Platter</h3>
+                    <p>A selection of the ocean's finest</p>
+                    <span class="price">1000TJK</span>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="menu.html" class="btn primary-btn">Discover Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>At Zafar Restaurant, we craft unforgettable dining experiences by blending rich traditions with innovative culinary artistry. Nestled at the entrance of Victory Park, our elegant ambiance and impeccable service invite you to savor every moment.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1517248135467-2c7ed3ab7229?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Reserve Your Experience</h2>
+                <div class="divider"></div>
+            </div>
+            <form class="reservation-form">
+                <input type="text" placeholder="Name" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="date" required>
+                <input type="time" required>
+                <input type="number" placeholder="Number of Guests" min="1" required>
+                <button type="submit" class="btn primary-btn">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Zafar Restaurant</h3>
+                    <p>ул. Аного, 176/1<br>(Landmark: Victory Park entrance)</p>
+                    <p>Phone: +992 93-576-5555</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Hours</h3>
+                    <p>Daily: 11am - 11:59pm</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/zafar_underheaven_restaurant"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1HHtEFHaMs/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Zafar Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
